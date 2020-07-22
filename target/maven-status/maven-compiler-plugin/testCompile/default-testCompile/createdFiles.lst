@@ -1,0 +1,4 @@
+com/hotelreservation/testCases/TC_CreateRecord_001.class
+com/hotelreservation/pageObjects/createRecord.class
+com/hotelreservation/testCases/TC_CreateRecord_002.class
+com/hotelreservation/testCases/BaseClass.class

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [hotelReservation]">
+  <test thread-count="5" name="Create01(failed)">
+    <classes>
+      <class name="com.hotelreservation.testCases.TC_CreateRecord_001">
+        <methods>
+          <include name="setup"/>
+          <include name="checkInDate"/>
+          <include name="enterDeposit"/>
+          <include name="close"/>
+          <include name="CreateRecordMethod"/>
+          <include name="delrecord"/>
+          <include name="saveRecord"/>
+          <include name="checkOutDate"/>
+        </methods>
+      </class> <!-- com.hotelreservation.testCases.TC_CreateRecord_001 -->
+    </classes>
+  </test> <!-- Create01(failed) -->
+  <test thread-count="5" name="Create02(failed)">
+    <classes>
+      <class name="com.hotelreservation.testCases.TC_CreateRecord_002">
+        <methods>
+          <include name="setup"/>
+          <include name="CreateRecordMethod"/>
+          <include name="saveRecord"/>
+          <include name="checkInDate"/>
+          <include name="close"/>
+          <include name="enterDeposit"/>
+          <include name="checkOutDate"/>
+          <include name="delrecord"/>
+        </methods>
+      </class> <!-- com.hotelreservation.testCases.TC_CreateRecord_002 -->
+    </classes>
+  </test> <!-- Create02(failed) -->
+</suite> <!-- Failed suite [hotelReservation] -->
